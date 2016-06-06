@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html>
-    <title></title>
     <head>
-
+        <title>www.me</title>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
     </head>
     <body>
-        
+        <h1 class="title"><span class="big">W</span>hat's <span class="big">W</span>rong <span class="big">W</span>ith<span class="big">.me</span></h1>
+        <div>
+            <h2>Symptoms</h1>
+            <div id="explanation">
+                <p>
+                    Pick three symptoms and find out what's wrong with you!
+                </p>
+            </div>
+        </div>
+        <div>
+            <form class="diseaselist">
+                <input class="input" type="checkbox" name="fever" value="fever">Fever<br>
+                <input class="input" type="checkbox" name="fatigue" value="fatigue">Fatigue<br>
+                <input class="input" type="checkbox" name="muscle aches" value="muscle aches">Muscle aches<br>
+                <input class="input" type="checkbox" name="coughing" value="coughing">Coughing<br>
+                <input class="input" type="checkbox" name="nauseated" value="nauseated">Nauseated<br>
+                <input class="input" type="checkbox" name="diarrhoea" value="diarrhoea">Diarrhoea<br>
+                <input class="input" type="submit" onclick="checkDisease()" value= "WHAT'S WRONG WITH ME?">
+            </form>
+        </div>
     </body>
 </html>

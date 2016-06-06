@@ -1,0 +1,30 @@
+
+:not(.title){
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.title{
+    background-color: white;
+    width: 60%;
+    height: 40%;
+    margin: auto;
+}
+.big{
+    color: #53599A;
+    font-size: 3em;
+}
+body{
+    background-color: #AEECEF;
+    text-align: center;
+
+}
+.input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.diseaselist{
+    background-color: #068D9D;
+    width: 60%;
+    height: 40%;
+    margin: auto;
+}
