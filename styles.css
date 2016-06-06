@@ -3,7 +3,6 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 .title{
-    border-radius: 5%;
     background-color: white;
     width: 60%;
     height: 40%;
@@ -32,7 +31,6 @@ body{
     margin: auto;
     padding: 20px;
 }
-.button{
 
 }
 img{
