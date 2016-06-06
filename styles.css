@@ -3,6 +3,7 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 .title{
+    border-radius: 5%;
     background-color: white;
     width: 60%;
     height: 40%;
@@ -23,8 +24,21 @@ body{
     margin-right: 5px;
 }
 .diseaselist{
+    margin-left: 0px;
+    margin-right: 0px;
     background-color: #068D9D;
     width: 60%;
     height: 40%;
     margin: auto;
+    padding: 20px;
+}
+.button{
+
+}
+img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 300px;
+    width: 200px;
+    border-radius: 5%;
 }
