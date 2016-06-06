@@ -1,7 +1,7 @@
 var modalOutput;
 function checkDisease() {
   var count = 0;
-  var inputArr = ["muscle aches", "nauseated", "fatigue"];
+  var inputArr = [];
   if (document.getElementById("fever").checked === true) {
     count ++;
     inputArr.push("fever");
