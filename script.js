@@ -2,27 +2,27 @@ var modalOutput;
 function checkDisease() {
   var count = 0;
   var inputArr = ["muscle aches", "nauseated", "fatigue"];
-  if (document.getElementById("fever").checked = true) {
+  if (document.getElementById("fever").checked === true) {
     count ++;
     inputArr.push("fever");
   }
-  if (document.getElementById("diarrhoea").checked = true) {
+  if (document.getElementById("diarrhoea").checked === true) {
     count ++;
     inputArr.push("diarrhoea");
   }
-  if (document.getElementById("fatigue").checked = true) {
+  if (document.getElementById("fatigue").checked === true) {
     count ++;
     inputArr.push("fatigue");
   }
-  if (document.getElementById("muscle aches").checked = true) {
+  if (document.getElementById("muscle aches").checked === true) {
     count ++;
     inputArr.push("muscle aches");
   }
-  if (document.getElementById("coughing").checked = true) {
+  if (document.getElementById("coughing").checked === true) {
     count ++;
     inputArr.push("coughing");
   }
-  if (document.getElementById("nauseated").checked = true) {
+  if (document.getElementById("nauseated").checked === true) {
     count ++;
     inputArr.push("nauseated");
   }
