@@ -2,6 +2,7 @@ var modalOutput;
 function checkDisease() {
   var count = 0;
   var inputArr = [];
+  console.log("test");
   if (document.getElementById("fever").checked === true) {
     count ++;
     inputArr.push("fever");
@@ -42,5 +43,5 @@ function checkDisease() {
   } else {
     modalOutput = "You have " + disease;
   };
-  document.getElementById("explaination").innerHTML = modalOutput;
+  document.getElementById("explanation").innerHTML = modalOutput;
 };
