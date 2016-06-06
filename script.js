@@ -42,4 +42,5 @@ function checkDisease() {
   } else {
     modalOutput = "You have " + disease;
   };
+  document.getElementById("explaination").innerHTML = modalOutput;
 };
